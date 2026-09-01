@@ -4,7 +4,7 @@ from datetime import date
 FILE_NAME = "attendance.csv"
 
 
-def add_student():
+def add_students():
     student_id = input("Enter student ID: ")
     name = input("Enter student name: ")
 
@@ -78,7 +78,7 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == "1":
-        add_student()
+        add_students()
 
     elif choice == "2":
         mark_attendance()
